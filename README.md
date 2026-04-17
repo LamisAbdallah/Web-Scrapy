@@ -1,2 +1,24 @@
-# Web-Scrapy
-This project focuses on Web Scraping and Data Analysis using Python in a Google Colab environment.  The main goal is to automatically extract data from websites, clean it, and transform it into structured insights that can support analysis and decision-making. 
+📚 Web Scraping Project – Books to Scrape
+📌 Overview
+
+This project demonstrates a complete web scraping pipeline using Scrapy to extract structured data from the website:
+
+🔗 https://books.toscrape.com
+
+The scraper collects detailed information about books across multiple pages and exports the data into a clean CSV file for further analysis.
+
+🚀 Features
+📄 Scrapes data from 50 pages automatically
+🔗 Follows links to individual book pages
+📚 Extracts detailed book information:
+Book Name
+Price
+Stock Availability
+Description
+Page Number
+🧠 Handles relative → absolute URL conversion
+📁 Exports data into structured CSV file
+🛠️ Technologies Used
+Python
+Scrapy
+Google Colab
